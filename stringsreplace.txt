@@ -1,0 +1,10 @@
+public class StringModify {
+   public static void main(String args[]) {
+      String input_string =  "Programming";
+      int index = 6;
+      char character = '%';
+      System.out.println("The string is defined as: " + input_string);
+      input_string = input_string.substring(0, index) + character + input_string.substring(index + 1);
+      System.out.println("\nThe modified string is: " + input_string);
+   }
+}
